@@ -1,0 +1,82 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem = 10px*/
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Utilidad*/
+
+.centrar-texto {
+    text-align: center;
+}
+
+
+/***********************************************************************************/
+/*Media querys*/
+
+/*
+Telefonos
+
+@media (min-width: 576px) {
+
+}
+
+Tablets
+
+@media (min-width: 768px) {
+
+}
+
+notebooks y pcs
+
+@media (min-width: 992px) {
+
+}
+
+Televisores
+
+@media (min-width: 1200px) {
+
+}
+*/
+
+
