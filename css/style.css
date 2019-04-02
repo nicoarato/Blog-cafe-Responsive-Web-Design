@@ -126,7 +126,8 @@ img {
     text-align: center;
     display: block;
     font-size: 1.8rem;
-
+    color: white;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -245,7 +246,25 @@ img {
     font-weight: 400;
 }
 
+/*footer */
 
+.site-footer {
+    background-color: black;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.site-footer p {
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.site-footer p span {
+    font-weight: 700;
+}
 
 /***********************************************************************************/
 /*Media querys*/
